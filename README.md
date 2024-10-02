@@ -44,7 +44,7 @@ To set up the project locally, follow these steps:
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/commodity-price-visualization.git
+   git clone https://github.com/csePriyanshu/commodity-price-visualization.git
    cd commodity-price-visualization
    ```
 
