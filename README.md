@@ -1,18 +1,20 @@
 
-# Commodity Price Visualization
+# Analysis of Daily Price of Various Commodities from Various Markets (Mandi)
 
 ## Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Visualizations](#visualizations)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
-This project provides visualizations for analyzing the daily prices of various commodities across different markets in India. The dataset includes information on commodity names, market locations, dates, and the prices (minimum, maximum, and modal) recorded for each commodity. These visualizations aim to provide insights into price trends, comparisons across markets, and regional price variations.
+This report analyzes the current state of agricultural commodities in India, utilizing data sourced from the Current Daily Price of Various Commodities from Various Markets (Mandi) dataset available on 
+https://www.data.gov.in/catalog/current-daily-price-various-commodities-various-markets-mandi. With a focus on price trends, trade volumes, and market shares across different states, the report aims to 
+provide valuable insights into the dynamics of agricultural markets in the country. By examining key indicators such as minimum trade prices, average modal prices, distinct commodity counts, and market 
+shares, the report seeks to highlight the disparities and opportunities present within the agricultural sector. Understanding these factors is crucial for policymakers, farmers, and market participants as they 
+navigate the complexities of agricultural trade and strive for improved market efficiency and equity.
 
 ## Dataset
 The dataset contains the following columns:
@@ -28,58 +30,11 @@ The dataset contains the following columns:
 - **Modal_x0020_Price**: The most common price for the commodity on that day in the market (often used as a representative price).
 
 ## Features
-- **Line Chart**: Track commodity price trends over time.
+- **Bar Chart**: Number of Markets and Districts present in different States.
 - **Bar Chart**: Compare prices of commodities across different markets.
 - **Box Plot**: Analyze price distributions for a commodity across markets or districts.
 - **Heatmap**: Visualize price variations across states or districts.
 - **Scatter Plot**: Correlate prices of different commodities across markets or time.
-
-## Installation
-To set up the project locally, follow these steps:
-
-### Prerequisites
-- Python 3.x
-- Required Python libraries: `matplotlib`, `pandas`, `seaborn`, `plotly`
-
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/csePriyanshu/commodity-price-visualization.git
-   cd commodity-price-visualization
-   ```
-
-2. Create a virtual environment (optional but recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
-   ```
-
-3. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Download the dataset and place it in the `data/` directory, or update the path in the script.
-
-## Usage
-1. **Load the Dataset**: 
-   Ensure the dataset is in CSV format and placed in the `data/` folder. Update the dataset path in the script if necessary.
-
-2. **Run the Visualization Scripts**: 
-   Generate different types of visualizations by running the provided Python scripts. 
-   For example, to generate a line chart for a specific commodity:
-   ```bash
-   python line_chart.py
-   ```
-
-3. **Available Scripts**:
-   - `line_chart.py`: Generates line charts for commodity price trends over time.
-   - `bar_chart.py`: Compares commodity prices across different markets.
-   - `box_plot.py`: Displays the price distribution across markets.
-   - `heatmap.py`: Visualizes price variations across states or districts.
-   
-4. **View the Visualizations**: 
-   The visualizations will either be displayed interactively or saved in the `output/` folder.
 
 ## Visualizations
 Here are some example visualizations you can generate with this project:
