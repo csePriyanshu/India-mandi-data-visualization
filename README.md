@@ -40,7 +40,8 @@ The dataset contains the following columns:
 ## Visualizations
 Here are the visualizations that analyse the Mandi dataset for this project:
 
-- ![Bar Chart](graphs/statesVSmarket&district.png)
+- No. of Markets and Districts present in different States
+  ![Bar Chart](graphs/statesVSmarket&district.png)
 
 - **Heatmap**: Visualize the variation of prices (e.g., modal prices) across states for specific commodities.
   ![Heatmap Example](images/heatmap_example.png)
