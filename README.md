@@ -42,9 +42,65 @@ Here are the visualizations that analyse the Mandi dataset for this project:
 
 - No. of Markets and Districts present in different States
   ![Bar Chart](graphs/statesVSmarket&district.png)
+  The first graph shows the distribution of market and district count by state. Tamil Nadu has maximum
+number of markets followed by Uttar Pradesh and Madhya Pradesh and so on whereas Uttar Pradesh has
+maximum no. of districts followed by Madhya Pradesh and Gujarat and so on.
 
-- **Heatmap**: Visualize the variation of prices (e.g., modal prices) across states for specific commodities.
-  ![Heatmap Example](images/heatmap_example.png)
+- Market Share Distribution by State
+  ![Pie Chart](graphs/mandi-distribution.png)
+  The second chart is a pie chart represent the contribution of each state in the market. Tamil Nadu dominates
+the market with the largest share of 41.7%. Other states like Jammu & Kashmir, Andaman & Nicobar and
+Uttarakhand contributes in the market, they have small shares but those too play a significant role in the
+market capital.
+
+- Distinct Commodities Count by State
+  ![Bubble Chart](graphs/commodity-count.png)
+  The third graph represents the distinct commodities count for various states. States like Gujarat, Karnataka,
+and Uttar Pradesh show a high count of distinct commodities, indicating diverse agricultural production. In
+contrast, states such as Assam and Nagaland show relatively lower counts. Himachal Pradesh shows an
+unusually negative value, suggesting potential anomalies or missing data in the dataset. Size of bubble
+represents the average maximum price for that state and commodity with count in y-axes. Bigger the size
+means larger is the average value for that coordinate.
+
+- Grade Count Across Different Grades
+  ![Line Chart](graphs/grades.png)
+  The fourth graph presents the count of commodities categorized by their grades. FAQ (Fair Average
+Quality) and Local grades are the most common, with the largest number of commodities falling into these
+categories, especially FAQ with over 7,000 entries. On the other hand, large and small grades have much
+fewer entries, with small grade commodities barely represented in the dataset.
+
+- Commodity and Market Distribution by State
+  ![Scatter Plot](graphs/commodity-and-market.png)
+  The fifth chart illustrates the distinct count of commodities and markets across various Indian states. The
+blue circles represent the distinct count of commodities, while the green circles represent the distinct count
+of markets in each state. States like Maharashtra, Telangana, and Uttar Pradesh have the highest number of
+both distinct commodities and markets, indicating a broader variety and distribution network. On the other
+hand, smaller regions like Andaman and Nicobar, Goa, and Nagaland show significantly fewer distinct
+commodities and markets. Some states, like Andhra Pradesh and Tamil Nadu, display a more balanced
+representation between commodities and markets, whereas others like Maharashtra and Telangana show
+more distinct commodities than markets.
+
+- Average modal price by state
+  ![Line Chart](graphs/avg-modal-price.png)
+  The sixth chart is a line graph showing the average modal price across various states. The Y-axis represents the
+average modal price, and the peaks and troughs indicate the fluctuations. Goa shows the highest average modal price,
+while Andaman and Nicobar Islands have the lowest. States like Telangana, Uttar Pradesh, and Maharashtra also
+show significant average prices, while others like Bihar and Madhya Pradesh remain relatively moderate.
+
+- Average Minimum price by state
+  ![Bubble Chart](graphs/avg-min-price.png)
+  The seventh chart is a bubble chart that shows the minimum trade price of commodities across various
+Indian states. The size of the bubbles indicates the volume of trades, while the Y-axis displays the minimum
+trade price. States like Telangana, Tamil Nadu, and Maharashtra exhibit the largest bubble sizes, indicating
+higher trade volumes, while some other states like Goa and Jammu & Kashmir have relatively smaller trade
+volumes but higher minimum prices.
+  
+- Market Districts on India’s Map
+  ![India's Map](graphs/map.png)
+  The final map visualization highlights the geographic distribution of districts in which markets are present
+across India. The map shows dense coverage in northern and western parts of the country, including Uttar
+Pradesh, Madhya Pradesh, and Rajasthan. The southern and northeastern regions have sparser market
+district coverage, indicating regional disparities in market distribution.
 
 ## Contributing
 Contributions are welcome! To contribute:
