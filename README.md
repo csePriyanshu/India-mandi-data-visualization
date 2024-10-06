@@ -31,22 +31,16 @@ The dataset contains the following columns:
 
 ## Features
 - **Bar Chart**: Number of Markets and Districts present in different States.
-- **Bar Chart**: Compare prices of commodities across different markets.
-- **Box Plot**: Analyze price distributions for a commodity across markets or districts.
-- **Heatmap**: Visualize price variations across states or districts.
-- **Scatter Plot**: Correlate prices of different commodities across markets or time.
+- **Pie Chart**: Market Share Distribution by State.
+- **Bubble Chart**: Distinct Commodities Count and Average Minimum price by State.
+- **Line Chart**: Grade Count Accross Different Grades and Average Modal price by State.
+- **Scatter Plot**: Commodity and Market Distribution by State.
+- **India's Political Map**: Market's Districts on India's Map.
 
 ## Visualizations
-Here are some example visualizations you can generate with this project:
+Here are the visualizations that analyse the Mandi dataset for this project:
 
-- **Line Chart**: Track commodity prices (e.g., Modal Price) over time across markets.
-  ![Line Chart Example](images/line_chart_example.png)
-
-- **Bar Chart**: Compare the maximum prices of a commodity across multiple markets.
-  ![Bar Chart Example](images/bar_chart_example.png)
-
-- **Box Plot**: Show the price distribution of commodities across different districts or states.
-  ![Box Plot Example](images/box_plot_example.png)
+- ![Bar Chart]([graphs/](https://github.com/csePriyanshu/commodity-price-visualization/blob/main/graphs/statesVSmarket&district.png?raw=true)
 
 - **Heatmap**: Visualize the variation of prices (e.g., modal prices) across states for specific commodities.
   ![Heatmap Example](images/heatmap_example.png)
